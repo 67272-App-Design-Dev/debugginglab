@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.1.4'
+gem 'rails', '~> 5.2.4.4'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '1.3.13'
 # Use Puma as the app server
@@ -35,7 +35,7 @@ gem 'bcrypt', '3.1.11'
 # Other gems
 gem 'chronic', '0.10.2'
 gem 'materialize-sass', '0.100.2'
-gem 'simple_form', '3.5.0'
+gem 'simple_form', '>3.5.0'
 gem 'materialize-form', '1.0.8'
 gem 'jquery-rails', '4.3.1'
 gem 'jquery-ui-rails', '6.0.1'
